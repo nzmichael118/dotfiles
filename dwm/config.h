@@ -70,7 +70,7 @@ static const char *cmdsounddown[]  = { "pactl", "set-sink-volume", "0", "-2%",  
 static const char *cmdsoundtoggle[]  = { "pactl", "set-sink-mute", "0", "toggle", NULL };
 static const char *cmdbrightnessup[]  = { "brightnessctl", "set", "5%+", NULL };
 static const char *cmdbrightnessdown[]  = { "brightnessctl", "set", "5%-", NULL };
-static const char *termcmd[]  = { "alacritty", NULL };
+static const char *termcmd[]  = { "st", NULL };
 static const char *cmdwallpaper[] = { "wal", "-i", "/usr/share/wallpapers/", NULL};
 
 
