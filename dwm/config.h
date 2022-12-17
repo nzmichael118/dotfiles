@@ -90,7 +90,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_r,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY|ShiftMask,             XK_r,  	   togglefloating, {0} },
 	{ MODKEY,                       XK_t,  	   setlayout,      {0} },
-	{ MODKEY,                       XK_d,  spawn,          {.v = dmenucmd } },
+	{ MODKEY,                       XK_d,  	   spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,		XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
@@ -106,8 +106,8 @@ static Key keys[] = {
 	{ 0,                            XF86AudioLowerVolume,      spawn,          {.v = cmdsounddown } },
 	{ 0,                            XF86MonBrightnessDown,     spawn,          {.v = cmdbrightnessdown } },
 	{ 0,                            XF86MonBrightnessUp,       spawn,          {.v = cmdbrightnessup } },
-	{ MODKEY|ShiftMask,				XK_F5,                     spawn,          {.v = cmdwallpaper } },
-	{ MODKEY|ShiftMask,				XK_equal,  setgaps,	   {.i =  0 } },
+	{ MODKEY|ShiftMask,		XK_F5,                     spawn,          {.v = cmdwallpaper } },
+	{ MODKEY|ShiftMask,		XK_equal,  setgaps,	   {.i =  0 } },
 	{ MODKEY,                       XK_F5,     xrdb,           {.v = NULL } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
